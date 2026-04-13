@@ -1,0 +1,158 @@
+! name: Horizon Sources
+! description: French official medical society guidelines, national health authority documents, and curated clinical references
+! public: false
+! author: Horizon Care
+
+! ── Drug safety & regulatory ──────────────────────────────────────────────────
+/ansm.sante.fr/
+/base-donnees-publique.medicaments.gouv.fr/
+
+! ── National clinical guidelines ──────────────────────────────────────────────
+/has-sante.fr/upload/docs/
+
+! ── General practice / Assurance Maladie ─────────────────────────────────────
+/ameli.fr/sites/default/files/Documents/
+
+! ── Infectious disease ───────────────────────────────────────────────────────
+/infectiologie.com/
+/antibioclic.com/
+
+! ── Cardiology ───────────────────────────────────────────────────────────────
+/www.sfcardio.fr/
+/escardio.org/Guidelines/
+/www.e-cardiogram.com/
+
+! ── Hypertension ─────────────────────────────────────────────────────────────
+/sfhta.eu/wp-content/uploads/
+
+! ── Haematology ──────────────────────────────────────────────────────────────
+/sfh.hematologie.net/
+/sfh.hematologie.net/recommandations/
+
+! ── Diabetes & metabolism ────────────────────────────────────────────────────
+/sfdiabete.org/
+
+! ── Endocrinology ────────────────────────────────────────────────────────────
+/sfendocrino.org/wp-content/uploads/
+
+! ── Gastroenterology ─────────────────────────────────────────────────────────
+/www.snfge.org/
+/sfed.org/recommandations/
+/snfcp.org/wp-content/uploads/
+/sfchirurgiedigestive.fr/recommandations/
+/cregg.org/fiches-recommandations/
+
+! ── Pulmonology ──────────────────────────────────────────────────────────────
+/cdn2.splf.fr/wp-content/uploads/
+
+! ── Critical care / ICU ──────────────────────────────────────────────────────
+/srlf.org/
+
+! ── Anaesthesia & intensive care ─────────────────────────────────────────────
+/cnear.fr/wp-content/uploads/
+/sfar.org/download/
+
+! ── Nephrology & transplantation ─────────────────────────────────────────────
+/sfndt.org/
+/transplantation-francophone.org/wp-content/uploads/
+
+! ── Internal medicine ────────────────────────────────────────────────────────
+/snfmi.org/sites/default/files/
+
+! ── Neurology ────────────────────────────────────────────────────────────────
+/sf-neuro.org/wp-content/
+/sfneurochirurgie.fr/wp-content/uploads/
+/sfnr.net/
+/cnp-mn.fr/wp-content/uploads/
+
+! ── ENT ──────────────────────────────────────────────────────────────────────
+/sforl.org/wp-content/uploads/
+/campusorl.fr/wp-content/uploads/
+
+! ── Ophthalmology ────────────────────────────────────────────────────────────
+/sfo-online.fr/
+
+! ── Pain medicine ────────────────────────────────────────────────────────────
+/sfetd-douleur.org/wp-content/uploads/
+
+! ── Dermatology ──────────────────────────────────────────────────────────────
+/sfdermato.org/upload/recommandations/
+/www.dermatoclic.com/
+
+! ── Emergency medicine ───────────────────────────────────────────────────────
+/sfmu.org/upload/consensus/
+/urgences-serveur.fr/
+
+! ── Urology ──────────────────────────────────────────────────────────────────
+/urofrance.org/wp-content/uploads/
+
+! ── Orthopaedics ─────────────────────────────────────────────────────────────
+/sofcot.fr/
+
+! ── Rheumatology ─────────────────────────────────────────────────────────────
+/larhumatologie.fr/app/uploads/
+/www.lecofer.org/
+
+! ── Allergology ──────────────────────────────────────────────────────────────
+/sfa.lesallergies.fr/wp-content/uploads/
+
+! ── Paediatrics & paediatric pulmonology ─────────────────────────────────────
+/sp2a.fr/wp-content/uploads/
+/sfpediatrie.com/
+
+! ── Obstetrics & gynaecology ─────────────────────────────────────────────────
+/cngof.fr/
+/societe-colposcopie.com/
+
+! ── Geriatrics ───────────────────────────────────────────────────────────────
+/sfgg.org/media/
+
+! ── Sleep medicine ───────────────────────────────────────────────────────────
+/sfrms-sommeil.org/wp-content/uploads/
+
+! ── Pathology ────────────────────────────────────────────────────────────────
+/sfpathol.org/media/pdf/
+
+! ── Microbiology ─────────────────────────────────────────────────────────────
+/sfm-microbiologie.org/wp-content/uploads/
+
+! ── HIV / sexual health ──────────────────────────────────────────────────────
+/santesex.sfls.fr/
+
+! ── Tobacco / addiction ──────────────────────────────────────────────────────
+/sfth.fr/app/uploads/
+
+! ── Pharmacology ─────────────────────────────────────────────────────────────
+/sfpt-fr.org/images/documents/
+
+! ── Rare diseases ────────────────────────────────────────────────────────────
+/sfemc.fr/wp-content/uploads/
+/orpha.net/fr/disease/detail/
+
+! ── Oncology ─────────────────────────────────────────────────────────────────
+/cancer.fr/professionnels-de-sante/
+/oncologik.fr/referentiels/
+/www.annalsofoncology.org/
+/francesfcc.org/wp-content/uploads/
+
+! ── Gynaecological surgery ───────────────────────────────────────────────────
+/scgp-asso.fr/wp-content/uploads/
+
+! ── Occupational medicine ────────────────────────────────────────────────────
+/societefrancaisedesanteautravail.fr/_docs/
+
+! ── Vascular medicine ────────────────────────────────────────────────────────
+/portailvasculaire.fr/sites/default/files/
+
+! ── Travel medicine ──────────────────────────────────────────────────────────
+/medecine-voyages.fr/wp-content/uploads/
+
+! ── General practice (medical educators) ─────────────────────────────────────
+/cnge.fr/wp-content/uploads/
+/cmg.fr/wp-content/uploads/
+
+! ── Teratology / pregnancy drug safety ───────────────────────────────────────
+/www.lecrat.fr/
+
+! Discard all results not matching the patterns above
+$discard,all

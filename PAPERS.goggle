@@ -1,0 +1,42 @@
+! name: Horizon Papers
+! description: Peer-reviewed scientific literature — PubMed, Lancet, NEJM, BMJ, JAMA, Nature, Cochrane, etc.
+! public: false
+! author: Horizon Care
+!
+! Status: initial set of domains — expand as needed (see SEARCH_ENGINES.md for guidance).
+
+! ── PubMed & open-access repositories ────────────────────────────────────────
+/pmc.ncbi.nlm.nih.gov/
+/pubmed.ncbi.nlm.nih.gov/
+
+! ── Major general medicine journals ──────────────────────────────────────────
+/www.thelancet.com/
+/www.nejm.org/
+/www.bmj.com/
+/jamanetwork.com/
+
+! ── Nature group ─────────────────────────────────────────────────────────────
+/www.nature.com/nm/
+/www.nature.com/articles/
+
+! ── Systematic reviews ───────────────────────────────────────────────────────
+/www.cochranelibrary.com/
+
+! ── Open-access publishers ───────────────────────────────────────────────────
+/bmcmedicine.biomedcentral.com/
+/plos.org/
+/bmjopen.bmj.com/
+
+! ── European specialty journals ───────────────────────────────────────────────
+/academic.oup.com/
+/www.escardio.org/
+/www.esmo.org/
+/www.annalsofoncology.org/
+
+! ── WHO & international agencies ─────────────────────────────────────────────
+/www.who.int/publications/
+/www.ecdc.europa.eu/en/publications-data/
+/www.nice.org.uk/guidance/
+
+! Discard all results not matching the patterns above
+$discard,all
