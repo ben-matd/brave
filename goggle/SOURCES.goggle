@@ -3,17 +3,17 @@
 ! public: false
 ! author: Horizon Care
 
-! ── Default rule: boost everything ────────────────────────────────────────────
+
 
 ! ── Drug safety & regulatory ──────────────────────────────────────────────────
 $boost=10,site=ansm.sante.fr
 $boost=10,site=base-donnees-publique.medicaments.gouv.fr
 
 ! ── National clinical guidelines ──────────────────────────────────────────────
-$boost=10,url=/has-sante.fr/upload/docs/
+*has-sante.fr/upload/docs/*$boost=10
 
 ! ── General practice / Assurance Maladie ─────────────────────────────────────
-$boost=10,url=/ameli.fr/sites/default/files/Documents/
+*ameli.fr/sites/default/files/Documents/*$boost=10
 
 ! ── Infectious disease ───────────────────────────────────────────────────────
 $boost=10,site=infectiologie.com
@@ -21,85 +21,85 @@ $boost=10,site=antibioclic.com
 
 ! ── Cardiology ───────────────────────────────────────────────────────────────
 $boost=10,site=www.sfcardio.fr
-$boost=10,url=/escardio.org/Guidelines/
+*escardio.org/Guidelines/*$boost=10
 $boost=10,site=www.e-cardiogram.com
 
 ! ── Hypertension ─────────────────────────────────────────────────────────────
-$boost=10,url=/sfhta.eu/wp-content/uploads/
+*sfhta.eu/wp-content/uploads/*$boost=10
 
 ! ── Haematology ──────────────────────────────────────────────────────────────
 $boost=10,site=sfh.hematologie.net
-$boost=10,url=/sfh.hematologie.net/recommandations/
+*sfh.hematologie.net/recommandations/*$boost=10
 
 ! ── Diabetes & metabolism ────────────────────────────────────────────────────
 $boost=10,site=sfdiabete.org
 
 ! ── Endocrinology ────────────────────────────────────────────────────────────
-$boost=10,url=/sfendocrino.org/wp-content/uploads/
+*sfendocrino.org/wp-content/uploads/*$boost=10
 
 ! ── Gastroenterology ─────────────────────────────────────────────────────────
 $boost=10,site=www.snfge.org
-$boost=10,url=/sfed.org/recommandations/
-$boost=10,url=/snfcp.org/wp-content/uploads/
-$boost=10,url=/sfchirurgiedigestive.fr/recommandations/
-$boost=10,url=/cregg.org/fiches-recommandations/
+*sfed.org/recommandations/*$boost=10
+*snfcp.org/wp-content/uploads/*$boost=10
+*sfchirurgiedigestive.fr/recommandations/*$boost=10
+*cregg.org/fiches-recommandations/*$boost=10
 
 ! ── Pulmonology ──────────────────────────────────────────────────────────────
-$boost=10,url=/cdn2.splf.fr/wp-content/uploads/
+*cdn2.splf.fr/wp-content/uploads/*$boost=10
 
 ! ── Critical care / ICU ──────────────────────────────────────────────────────
 $boost=10,site=srlf.org
 
 ! ── Anaesthesia & intensive care ─────────────────────────────────────────────
-$boost=10,url=/cnear.fr/wp-content/uploads/
-$boost=10,url=/sfar.org/download/
+*cnear.fr/wp-content/uploads/*$boost=10
+*sfar.org/download/*$boost=10
 
 ! ── Nephrology & transplantation ─────────────────────────────────────────────
 $boost=10,site=sfndt.org
-$boost=10,url=/transplantation-francophone.org/wp-content/uploads/
+*transplantation-francophone.org/wp-content/uploads/*$boost=10
 
 ! ── Internal medicine ────────────────────────────────────────────────────────
-$boost=10,url=/snfmi.org/sites/default/files/
+*snfmi.org/sites/default/files/*$boost=10
 
 ! ── Neurology ────────────────────────────────────────────────────────────────
-$boost=10,url=/sf-neuro.org/wp-content/
-$boost=10,url=/sfneurochirurgie.fr/wp-content/uploads/
+*sf-neuro.org/wp-content/*$boost=10
+*sfneurochirurgie.fr/wp-content/uploads/*$boost=10
 $boost=10,site=sfnr.net
-$boost=10,url=/cnp-mn.fr/wp-content/uploads/
+*cnp-mn.fr/wp-content/uploads/*$boost=10
 
 ! ── ENT ──────────────────────────────────────────────────────────────────────
-$boost=10,url=/sforl.org/wp-content/uploads/
-$boost=10,url=/campusorl.fr/wp-content/uploads/
+*sforl.org/wp-content/uploads/*$boost=10
+*campusorl.fr/wp-content/uploads/*$boost=10
 
 ! ── Ophthalmology ────────────────────────────────────────────────────────────
 $boost=10,site=sfo-online.fr
 
 ! ── Pain medicine ────────────────────────────────────────────────────────────
-$boost=10,url=/sfetd-douleur.org/wp-content/uploads/
+*sfetd-douleur.org/wp-content/uploads/*$boost=10
 
 ! ── Dermatology ──────────────────────────────────────────────────────────────
-$boost=10,url=/sfdermato.org/upload/recommandations/
+*sfdermato.org/upload/recommandations/*$boost=10
 $boost=10,site=www.dermatoclic.com
 
 ! ── Emergency medicine ───────────────────────────────────────────────────────
-$boost=10,url=/sfmu.org/upload/consensus/
+*sfmu.org/upload/consensus/*$boost=10
 $boost=10,site=urgences-serveur.fr
 
 ! ── Urology ──────────────────────────────────────────────────────────────────
-$boost=10,url=/urofrance.org/wp-content/uploads/
+*urofrance.org/wp-content/uploads/*$boost=10
 
 ! ── Orthopaedics ─────────────────────────────────────────────────────────────
 $boost=10,site=sofcot.fr
 
 ! ── Rheumatology ─────────────────────────────────────────────────────────────
-$boost=10,url=/larhumatologie.fr/app/uploads/
+*larhumatologie.fr/app/uploads/*$boost=10
 $boost=10,site=www.lecofer.org
 
 ! ── Allergology ──────────────────────────────────────────────────────────────
-$boost=10,url=/sfa.lesallergies.fr/wp-content/uploads/
+*sfa.lesallergies.fr/wp-content/uploads/*$boost=10
 
 ! ── Paediatrics & paediatric pulmonology ─────────────────────────────────────
-$boost=10,url=/sp2a.fr/wp-content/uploads/
+*sp2a.fr/wp-content/uploads/*$boost=10
 $boost=10,site=sfpediatrie.com
 
 ! ── Obstetrics & gynaecology ─────────────────────────────────────────────────
@@ -107,50 +107,48 @@ $boost=10,site=cngof.fr
 $boost=10,site=societe-colposcopie.com
 
 ! ── Geriatrics ───────────────────────────────────────────────────────────────
-$boost=10,url=/sfgg.org/media/
+*sfgg.org/media/*$boost=10
 
 ! ── Sleep medicine ───────────────────────────────────────────────────────────
-$boost=10,url=/sfrms-sommeil.org/wp-content/uploads/
+*sfrms-sommeil.org/wp-content/uploads/*$boost=10
 
 ! ── Pathology ────────────────────────────────────────────────────────────────
-$boost=10,url=/sfpathol.org/media/pdf/
+*sfpathol.org/media/pdf/*$boost=10
 
 ! ── Microbiology ─────────────────────────────────────────────────────────────
-$boost=10,url=/sfm-microbiologie.org/wp-content/uploads/
+*sfm-microbiologie.org/wp-content/uploads/*$boost=10
 
 ! ── HIV / sexual health ──────────────────────────────────────────────────────
 $boost=10,site=santesex.sfls.fr
 
 ! ── Tobacco / addiction ──────────────────────────────────────────────────────
-$boost=10,url=/sfth.fr/app/uploads/
+*sfth.fr/app/uploads/*$boost=10
 
 ! ── Pharmacology ─────────────────────────────────────────────────────────────
-$boost=10,url=/sfpt-fr.org/images/documents/
+*sfpt-fr.org/images/documents/*$boost=10
 
 ! ── Rare diseases ────────────────────────────────────────────────────────────
-$boost=10,url=/sfemc.fr/wp-content/uploads/
-$boost=10,url=/orpha.net/fr/disease/detail/
+*sfemc.fr/wp-content/uploads/*$boost=10
+*orpha.net/fr/disease/detail/*$boost=10
 
 ! ── Oncology ─────────────────────────────────────────────────────────────────
-$boost=10,url=/cancer.fr/professionnels-de-sante/
-$boost=10,url=/oncologik.fr/referentiels/
+*cancer.fr/professionnels-de-sante/*$boost=10
+*oncologik.fr/referentiels/*$boost=10
 $boost=10,site=www.annalsofoncology.org
-$boost=10,url=/francesfcc.org/wp-content/uploads/
+*francesfcc.org/wp-content/uploads/*$boost=10
 
 ! ── Gynaecological surgery ───────────────────────────────────────────────────
-$boost=10,url=/scgp-asso.fr/wp-content/uploads/
+*scgp-asso.fr/wp-content/uploads/*$boost=10
 
 ! ── Occupational medicine ────────────────────────────────────────────────────
-$boost=10,url=/societefrancaisedesanteautravail.fr/_docs/
+*societefrancaisedesanteautravail.fr/_docs/*$boost=10
 
 ! ── Vascular medicine ────────────────────────────────────────────────────────
-$boost=10,url=/portailvasculaire.fr/sites/default/files/
+*portailvasculaire.fr/sites/default/files/*$boost=10
 
 ! ── Travel medicine ──────────────────────────────────────────────────────────
-$boost=10,url=/medecine-voyages.fr/wp-content/uploads/
+*medecine-voyages.fr/wp-content/uploads/*$boost=10
 
 ! ── General practice (medical educators) ─────────────────────────────────────
-$boost=10,url=/cnge.fr/wp-content/uploads/
-$boost=10,url=/cmg.fr/wp-content/uploads/
-
-! ── Teratology / pregnancy drug safety ───────────────────────────────────────
+*cnge.fr/wp-content/uploads/*$boost=10
+*cmg.fr/wp-content/uploads/*$boost=10
