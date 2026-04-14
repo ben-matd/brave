@@ -2,41 +2,39 @@
 ! description: Peer-reviewed scientific literature — PubMed, Lancet, NEJM, BMJ, JAMA, Nature, Cochrane, etc.
 ! public: false
 ! author: Horizon Care
-!
-! Status: initial set of domains — expand as needed (see SEARCH_ENGINES.md for guidance).
 
-! ── Default rule: penalize everything ─────────────────────────────────────────
-* -5
+! ── Default rule: downrank everything not matched ──────────────────────────────
+*$downrank=5
 
 ! ── PubMed & open-access repositories ────────────────────────────────────────
-/pmc.ncbi.nlm.nih.gov/ +5
-/pubmed.ncbi.nlm.nih.gov/ +5
+$boost=10,site=pmc.ncbi.nlm.nih.gov
+$boost=10,site=pubmed.ncbi.nlm.nih.gov
 
 ! ── Major general medicine journals ──────────────────────────────────────────
-/www.thelancet.com/ +5
-/www.nejm.org/ +5
-/www.bmj.com/ +5
-/jamanetwork.com/ +5
+$boost=10,site=www.thelancet.com
+$boost=10,site=www.nejm.org
+$boost=10,site=www.bmj.com
+$boost=10,site=jamanetwork.com
 
 ! ── Nature group ─────────────────────────────────────────────────────────────
-/www.nature.com/nm/ +5
-/www.nature.com/articles/ +5
+*www.nature.com/nm/*$boost=10
+*www.nature.com/articles/*$boost=10
 
 ! ── Systematic reviews ───────────────────────────────────────────────────────
-/www.cochranelibrary.com/ +5
+$boost=10,site=www.cochranelibrary.com
 
 ! ── Open-access publishers ───────────────────────────────────────────────────
-/bmcmedicine.biomedcentral.com/ +5
-/plos.org/ +5
-/bmjopen.bmj.com/ +5
+$boost=10,site=bmcmedicine.biomedcentral.com
+$boost=10,site=plos.org
+$boost=10,site=bmjopen.bmj.com
 
-! ── European specialty journals ───────────────────────────────────────────────
-/academic.oup.com/ +5
-/www.escardio.org/ +5
-/www.esmo.org/ +5
-/www.annalsofoncology.org/ +5
+! ── European specialty journals ──────────────────────────────────────────────
+$boost=10,site=academic.oup.com
+$boost=10,site=www.escardio.org
+$boost=10,site=www.esmo.org
+$boost=10,site=www.annalsofoncology.org
 
 ! ── WHO & international agencies ─────────────────────────────────────────────
-/www.who.int/publications/ +5
-/www.ecdc.europa.eu/en/publications-data/ +5
-/www.nice.org.uk/guidance/ +5
+*www.who.int/publications/*$boost=10
+*www.ecdc.europa.eu/en/publications-data/*$boost=10
+*www.nice.org.uk/guidance/*$boost=10
