@@ -5,38 +5,38 @@
 !
 ! Status: initial set of domains — expand as needed (see SEARCH_ENGINES.md for guidance).
 
+! ── Default rule: penalize everything ─────────────────────────────────────────
+* -5
+
 ! ── PubMed & open-access repositories ────────────────────────────────────────
-/pmc.ncbi.nlm.nih.gov/
-/pubmed.ncbi.nlm.nih.gov/
+/pmc.ncbi.nlm.nih.gov/ +5
+/pubmed.ncbi.nlm.nih.gov/ +5
 
 ! ── Major general medicine journals ──────────────────────────────────────────
-/www.thelancet.com/
-/www.nejm.org/
-/www.bmj.com/
-/jamanetwork.com/
+/www.thelancet.com/ +5
+/www.nejm.org/ +5
+/www.bmj.com/ +5
+/jamanetwork.com/ +5
 
 ! ── Nature group ─────────────────────────────────────────────────────────────
-/www.nature.com/nm/
-/www.nature.com/articles/
+/www.nature.com/nm/ +5
+/www.nature.com/articles/ +5
 
 ! ── Systematic reviews ───────────────────────────────────────────────────────
-/www.cochranelibrary.com/
+/www.cochranelibrary.com/ +5
 
 ! ── Open-access publishers ───────────────────────────────────────────────────
-/bmcmedicine.biomedcentral.com/
-/plos.org/
-/bmjopen.bmj.com/
+/bmcmedicine.biomedcentral.com/ +5
+/plos.org/ +5
+/bmjopen.bmj.com/ +5
 
 ! ── European specialty journals ───────────────────────────────────────────────
-/academic.oup.com/
-/www.escardio.org/
-/www.esmo.org/
-/www.annalsofoncology.org/
+/academic.oup.com/ +5
+/www.escardio.org/ +5
+/www.esmo.org/ +5
+/www.annalsofoncology.org/ +5
 
 ! ── WHO & international agencies ─────────────────────────────────────────────
-/www.who.int/publications/
-/www.ecdc.europa.eu/en/publications-data/
-/www.nice.org.uk/guidance/
-
-! Discard all results not matching the patterns above
-$discard,all
+/www.who.int/publications/ +5
+/www.ecdc.europa.eu/en/publications-data/ +5
+/www.nice.org.uk/guidance/ +5
