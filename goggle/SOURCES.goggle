@@ -3,7 +3,8 @@
 ! public: false
 ! author: Horizon Care
 
-
+! ── Default rule: downrank everything not matched ──────────────────────────────
+*$downrank=5
 
 ! ── Drug safety & regulatory ──────────────────────────────────────────────────
 $boost=10,site=ansm.sante.fr
