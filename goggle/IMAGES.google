@@ -1,6 +1,6 @@
 ! name: H Images
 ! description: Boosts dermnetnz.org for dermatology image searches
-! public: true
+! public: false
 ! author: HC
 
 ! Downrank everything not matched
