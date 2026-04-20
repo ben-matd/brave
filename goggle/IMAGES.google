@@ -3,6 +3,8 @@
 ! public: false
 ! author: HC
 
+! ── Default rule: downrank everything not matched
 *$downrank=5
 
+! ── Images 
 $boost=10,site=:https://dermnetnz.org/
