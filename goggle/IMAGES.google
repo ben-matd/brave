@@ -1,10 +1,10 @@
 ! name: H Images
-! description: Nothing
-! public: false
+! description: Boosts dermnetnz.org for dermatology image searches
+! public: true
 ! author: HC
 
-! ── Default rule: downrank everything not matched
+! Downrank everything not matched
 *$downrank=5
 
-! ── Images 
-$boost=10,site=:https://dermnetnz.org/
+! Boost DermNet NZ
+$boost=10,site=dermnetnz.org
