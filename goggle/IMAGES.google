@@ -1,10 +1,12 @@
 ! name: H Images
-! description: Boosts dermnetnz.org for dermatology image searches
+! description: Boosts curated dermatology image atlases for clinical image searches
 ! public: false
 ! author: HC
 
 ! Downrank everything not matched
 *$downrank=5
 
-! Boost DermNet NZ
+! ── Dermatology image atlases ────────────────────────────────────────────────
 $boost=10,site=dermnetnz.org
+$boost=10,site=dermis.net
+$boost=10,site=atlasdermato.org
