@@ -38,3 +38,25 @@ $boost=10,site=www.annalsofoncology.org
 *www.who.int/publications/*$boost=10
 *www.ecdc.europa.eu/en/publications-data/*$boost=10
 *www.nice.org.uk/guidance/*$boost=10
+
+! ── P1 — major publishers ────────────────────────────────────────────────────
+/www.ahajournals.org/
+/europepmc.org/
+/www.annals.org/
+/journals.lww.com/
+/publications.aap.org/
+/erj.ersjournals.com/
+/diabetesjournals.org/
+/ashpublications.org/
+/ascopubs.org/
+
+! ── P2 — publisher coverage gains ────────────────────────────────────────────
+/www.sciencedirect.com/
+/link.springer.com/
+/www.springer.com/
+/onlinelibrary.wiley.com/
+/www.tandfonline.com/
+/www.karger.com/
+/gut.bmj.com/
+/heart.bmj.com/
+/thorax.bmj.com/
